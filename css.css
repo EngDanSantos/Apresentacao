@@ -54,6 +54,9 @@ body{
     font-size: 24px;
 }
 .apresentacao_links_botao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     border: 2px solid #22D4FD;
@@ -70,4 +73,8 @@ body{
     border-radius: 600px;
     width: 280px;
     align-self:flex-start
+}
+
+.apresentacao_links_botao:hover{
+    background-color: #272727;
 }

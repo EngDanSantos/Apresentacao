@@ -88,7 +88,8 @@ body{
 .imagem{
     border-radius: 600px;
     width: 280px;
-    align-self:flex-start
+    align-self: flex-start;
+       
 }
 
 .apresentacao_links_botao:hover{
@@ -106,6 +107,7 @@ body{
 }
  .lista{
     list-style-type: disc;
+    
  }
 
  .apresentacao__curriculo{

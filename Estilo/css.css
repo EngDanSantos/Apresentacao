@@ -11,12 +11,25 @@ body{
     color: #F6F6F6;
 }
 
-.titulo-destaque{
-    color: #22D4FD;
+.cabecalho{
+    padding: 2% 0% 0% 15%;
 }
 
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__links{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#0b6660;
+    text-decoration: none;
+}
+
+
 .apresentacao{
-    padding: 07% 15%;
+    padding: 05% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,6 +52,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.titulo-destaque{
+    color: #0b6660;
+}
+
 .apresentacao__links{
     display: flex;
     flex-direction: column;
@@ -58,7 +75,7 @@ body{
     gap: 16px;
     width: 378px;
     text-align: center;
-    border: 2px solid #22D4FD;
+    border: 2px solid #0b6660;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
@@ -81,7 +98,7 @@ body{
 .rodape{
     padding: 24px;
     color: #000000;
-    background-color: #22D4FD;
+    background-color: #0b6660;
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-size: 24px;

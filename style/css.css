@@ -107,3 +107,8 @@ body{
  .lista{
     list-style-type: disc;
  }
+
+ .apresentacao__curriculo{
+    display: flex;
+    flex-direction: column;
+ }

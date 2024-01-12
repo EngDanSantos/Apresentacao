@@ -21,13 +21,6 @@ body{
     color:var(--cor-segundaria);
 }
 
-.imagem_logo{
-    border-radius: 600px;
-    width: 5%;
-    height: 5%;
-    align-self: start;
-   
-}
 
 .cabecalho{
     padding: 2% 0% 0% 15%;
@@ -36,6 +29,7 @@ body{
 .cabecalho__menu{
     display: flex;
     gap: 80px;
+    
 }
 .cabecalho__menu__links{
     font-family: var(--font-secundaria);
@@ -136,14 +130,16 @@ body{
 @media (max-width: 1200px){
 
     .imagem_logo{
-        width: 8%;
+        width: 2%;
               
     }
     .cabecalho{
-        padding: 05%;
+        padding: 5%;
     }
     .cabecalho__menu{
         justify-content: center;
+        font-size: 0.5rem;
+        flex-wrap: wrap;
     }
     .apresentacao{
         flex-direction: column-reverse;

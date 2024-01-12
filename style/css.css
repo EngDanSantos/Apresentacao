@@ -54,7 +54,7 @@ body{
     justify-content: space-between;
 }
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -92,7 +92,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
@@ -104,14 +104,24 @@ body{
     font-family:var(--font-secundaria);
 }
 
-.imagem{
+.apresentacao_links_botao:hover{
+    background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem{
     border-radius: 600px;
-    width: 280px;
+    width: 50%;
     align-self: flex-start;       
 }
 
-.apresentacao_links_botao:hover{
-    background-color: var(--cor-hover);
+.lista{
+   list-style-type: disc;
+   
+}
+
+.apresentacao__curriculo{
+   display: flex;
+   flex-direction: column;
 }
 
 .rodape{
@@ -123,12 +133,3 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
- .lista{
-    list-style-type: disc;
-    
- }
-
- .apresentacao__curriculo{
-    display: flex;
-    flex-direction: column;
- }

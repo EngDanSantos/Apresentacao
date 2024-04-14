@@ -17,7 +17,7 @@
 
 body{
     box-sizing: border-box;
-    background-color:var(--cor-primaria);
+    background: linear-gradient(180deg, var(--cor-de-fundo) 20%, rgba(42,42,96,1) 46%, rgba(6,93,110,1) 100%);
     color:var(--cor-segundaria);
 }
 

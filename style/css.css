@@ -3,7 +3,7 @@
 :root{
     --cor-primaria: #232931;
     --cor-segundaria:#EEEEEE;
-    --cor-terciaria:#4ECCA3;
+    --cor-terciaria:#71d7f6;
     --cor-hover:#393E46;
 
     --font-primaria:'krona One', sans-serif;
@@ -17,7 +17,7 @@
 
 body{
     box-sizing: border-box;
-    background-color:var(--cor-primaria);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 20%, rgba(42,42,96,1) 46%, rgba(6,93,110,1) 100%);
     color:var(--cor-segundaria);
 }
 
@@ -127,6 +127,14 @@ body{
     font-weight: 400;
 }
 
+.link_portifolio{
+    color: var(--cor-segundaria);
+    font-size: 15px;
+}
+
+.link_portifolio:hover{
+    color: var(--cor-terciaria);
+}
 @media (max-width: 1200px){
 
     .imagem_logo{

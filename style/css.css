@@ -118,13 +118,15 @@ body{
 }
 
 .rodape{
-    padding: 24px;
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    padding: 10px;
+    color: var(--cor-terciaria);
+    background-color: transparent;
     text-align: center;
     font-family:var(--font-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 8px;
 }
 
 .link_portifolio{
